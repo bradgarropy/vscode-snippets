@@ -1,6 +1,6 @@
 # bg-snippets README
 
-This is the README for your extension "bg-snippets". After writing up a brief description, we recommend including the following sections.
+Snippet library.
 
 ## Features
 
