@@ -1,8 +1,29 @@
 {
     "name": "bg-snippets",
-    "displayName": "bg-snippets",
-    "description": "✂️ snippet library",
     "version": "0.0.1",
+    "description": "✂️ snippet library",
+    "keywords": [],
+    "homepage": "https://github.com/bradgarropy/vscode-snippets",
+    "bugs": {
+        "url": "https://github.com/bradgarropy/vscode-snippets/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Brad Garropy",
+        "email": "bradgarropy@gmail.com",
+        "url": "https://bradgarropy.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bradgarropy/vscode-snippets"
+    },
+    "scripts": {
+        "start": ""
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "peerDependencies": {},
+    "displayName": "bg-snippets",
     "publisher": "bradgarropy",
     "engines": {
         "vscode": "^1.37.0"
