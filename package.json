@@ -3,6 +3,7 @@
     "displayName": "bg-snippets",
     "description": "✂️ snippet library",
     "version": "0.0.1",
+    "publisher": "bradgarropy",
     "engines": {
         "vscode": "^1.37.0"
     },
