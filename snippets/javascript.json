@@ -1,0 +1,57 @@
+{
+  /*
+	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+  "Console Log": {
+    "prefix": "log",
+    "body": "console.log($1)",
+    "description": "Logs output to the console."
+  },
+  "Import": {
+    "prefix": "imp",
+    "body": "import $2 from \"$1\"",
+    "description": "Import statement."
+  },
+  "React Component": {
+    "prefix": "rc",
+    "body": [
+      "import React from \"react\"",
+      "import PropTypes from \"prop-types\"",
+      "",
+      "const $1 = (${2:props}) => {",
+      "    return (",
+      "        <div>",
+      "            <h1>$1</h1>",
+      "        </div>",
+      "    )",
+      "}",
+      "",
+      "$1.propTypes = {",
+      "    $3",
+      "}",
+      "",
+      "export default $1",
+      ""
+    ],
+    "description": "Functional stateless component template."
+  },
+  "Arrow Function": {
+    "prefix": "af",
+    "body": [
+      "const $1 = ($2) => {$3}"
+    ],
+    "description": "Arrow function template."
+  }
+}

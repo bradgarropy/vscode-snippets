@@ -1,0 +1,24 @@
+{
+    "name": "bg-snippets",
+    "displayName": "bg-snippets",
+    "description": "✂️ snippet library",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python.json"
+            }
+        ]
+    }
+}
