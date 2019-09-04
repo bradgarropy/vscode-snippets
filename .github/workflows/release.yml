@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: "📦 vsce publish"
-      uses: actions/checkout@master
+    - uses: actions/checkout@master
       uses: lannonbr/vsce-action@master
       with:
         args: publish -p $VSCE_PAT
