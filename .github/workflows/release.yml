@@ -1,14 +1,15 @@
-name: "🚀 publish"
+name: "🚀 release"
 on:
   release:
     types: [published]
 jobs:
   build:
-    name: "📦 vsce publish"
+    name: "🚀 release"
     runs-on: ubuntu-latest
     steps:
-    - name: "📦 vsce publish"
-    - uses: actions/checkout@master
+    - name: "📚 checkout"
+      uses: actions/checkout@master
+    - name: "📦 publish"
       uses: lannonbr/vsce-action@master
       with:
         args: publish -p $VSCE_PAT
