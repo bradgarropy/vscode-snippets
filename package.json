@@ -1,9 +1,16 @@
 {
     "name": "bg-snippets",
-    "version": "0.0.1",
-    "description": "✂️ snippet library",
-    "keywords": [],
-    "homepage": "https://github.com/bradgarropy/vscode-snippets",
+    "version": "0.0.2",
+    "description": "✂️ vscode snippet library",
+    "keywords": [
+        "vscode",
+        "extension",
+        "snippets",
+        "javascript",
+        "python",
+        "react"
+    ],
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets",
     "bugs": {
         "url": "https://github.com/bradgarropy/vscode-snippets/issues"
     },
