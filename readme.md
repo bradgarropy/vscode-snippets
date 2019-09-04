@@ -4,20 +4,20 @@ _Snippet library._
 
 ## JavaScript
 
-log  
-imp  
-nimp  
-af  
-aaf
+`log`  
+`imp`  
+`nimp`  
+`af`  
+`aaf`
 
 # React
 
-rc
+`rc`
 
 ## Python
 
-log  
-logi  
-logw  
-loge  
-def
+`log`  
+`logi`  
+`logw`  
+`loge`  
+`def`
