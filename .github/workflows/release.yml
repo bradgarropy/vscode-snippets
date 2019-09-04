@@ -1,14 +1,15 @@
-on: release
 name: "🚀 publish"
+gion:
+  release:
+    types: [published]
 jobs:
   build:
     name: "📦 vsce publish"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
     - name: "📦 vsce publish"
       uses: lannonbr/vsce-action@master
-      env:
-        VSCE_PAT: ${{ secrets.VSCE_PAT }}
       with:
         args: publish -p $VSCE_PAT
+      env:
+        VSCE_PAT: ${{ secrets.VSCE_PAT }}
