@@ -2,13 +2,13 @@
 
 ## JavaScript
 
-| Prefix | Code                     | Description                        |
-| ------ | ------------------------ | ---------------------------------- |
-| `log`  | `console.log($1)`        | Logs output to the console.        |
-| `imp`  | `import $2 from "$1"`    | Import statement.                  |
-| `nimp` | import {$2} from "$1"    | Named import statement.            |
-| `af`   | const $1 = ($2) => {\$3} | Arrow function template.           |
-| `aaf`  | ($1) => {$2}             | Anonymous arrow function template. |
+| Prefix | Code                      | Description                        |
+| ------ | ------------------------- | ---------------------------------- |
+| `log`  | `console.log($1)`         | Logs output to the console.        |
+| `imp`  | `import $2 from "$1"`     | Import statement.                  |
+| `nimp` | `import {$2} from "$1"`   | Named import statement.            |
+| `af`   | `const $1 = ($2) => {$3}` | Arrow function template.           |
+| `aaf`  | `($1) => {$2}`            | Anonymous arrow function template. |
 
 ### `rc`
 
@@ -35,12 +35,12 @@ export default $1
 
 ## Python
 
-| Prefix | Code                 | Description                            |
-| ------ | -------------------- | -------------------------------------- |
-| `log`  | logging.info(\$1)    | Logs an info message to the console.   |
-| `logi` | logging.info(\$1)    | Logs an info message to the console.   |
-| `logw` | logging.warning(\$1) | Logs a warning message to the console. |
-| `loge` | logging.error(\$1)   | Logs an error message to the console.  |
+| Prefix | Code                  | Description                            |
+| ------ | --------------------- | -------------------------------------- |
+| `log`  | `logging.info($1)`    | Logs an info message to the console.   |
+| `logi` | `logging.info($1)`    | Logs an info message to the console.   |
+| `logw` | `logging.warning($1)` | Logs a warning message to the console. |
+| `loge` | `logging.error($1)`   | Logs an error message to the console.  |
 
 ### `def`
 
