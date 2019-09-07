@@ -2,17 +2,19 @@
 
 ## JavaScript
 
-| Prefix | Code                      | Description                        |
-| ------ | ------------------------- | ---------------------------------- |
-| `log`  | `console.log($1)`         | Logs output to the console.        |
-| `imp`  | `import $2 from "$1"`     | Import statement.                  |
-| `nimp` | `import {$2} from "$1"`   | Named import statement.            |
-| `af`   | `const $1 = ($2) => {$3}` | Arrow function template.           |
-| `aaf`  | `($1) => {$2}`            | Anonymous arrow function template. |
+| Prefix | Code                      | Description                 |
+| ------ | ------------------------- | --------------------------- |
+| `log`  | `console.log($1)`         | Logs output to the console. |
+| `imp`  | `import $2 from "$1"`     | Import statement.           |
+| `nimp` | `import {$2} from "$1"`   | Named import statement.     |
+| `af`   | `const $1 = ($2) => {$3}` | Arrow function.             |
+| `aaf`  | `($1) => {$2}`            | Anonymous arrow function.   |
+
+## React
 
 ### `rc`
 
-Functional stateless component template.
+Functional stateless component.
 
 ```javascript
 import React from "react"
