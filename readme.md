@@ -1,4 +1,4 @@
-✂️ _Visual Studio Code snippet library for JavaScript and Python._
+✂️ _[Visual Studio Code][vscode] snippet library for JavaScript and Python._
 
 ## JavaScript
 
@@ -59,3 +59,5 @@ def $1():
 
     return
 ```
+
+[vscode]: https://code.visualstudio.com
