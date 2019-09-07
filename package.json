@@ -1,6 +1,6 @@
 {
     "name": "bg-snippets",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "✂️ vscode snippet library",
     "keywords": [
         "vscode",
@@ -30,14 +30,18 @@
     "dependencies": {},
     "devDependencies": {},
     "peerDependencies": {},
-    "displayName": "bg-snippets",
     "publisher": "bradgarropy",
     "engines": {
         "vscode": "^1.37.0"
     },
+    "displayName": "bg-snippets",
     "categories": [
         "Snippets"
     ],
+    "galleryBanner": {
+        "color": "#ffffff",
+        "theme": "light"
+    },
     "contributes": {
         "snippets": [
             {
@@ -49,5 +53,6 @@
                 "path": "./snippets/python.json"
             }
         ]
-    }
+    },
+    "icon": "images/bg.png"
 }
