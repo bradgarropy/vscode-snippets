@@ -1,23 +1,61 @@
-# bg-snippets
-
-_Snippet library._
+✂️ _Visual Studio Code snippet library for JavaScript and Python._
 
 ## JavaScript
 
-`log`  
-`imp`  
-`nimp`  
-`af`  
-`aaf`
+| Prefix | Code                     | Description                        |
+| ------ | ------------------------ | ---------------------------------- |
+| `log`  | `console.log($1)`        | Logs output to the console.        |
+| `imp`  | `import $2 from "$1"`    | Import statement.                  |
+| `nimp` | import {$2} from "$1"    | Named import statement.            |
+| `af`   | const $1 = ($2) => {\$3} | Arrow function template.           |
+| `aaf`  | ($1) => {$2}             | Anonymous arrow function template. |
 
-### React
+### `rc`
 
-`rc`
+Functional stateless component template.
+
+```javascript
+import React from "react"
+import PropTypes from "prop-types"
+
+const $1 = ({$2: props}) => {
+    return (
+        <div>
+            <h1>$1</h1>
+        </div>
+    )
+}
+
+$1.propTypes = {
+    $3,
+}
+
+export default $1
+```
 
 ## Python
 
-`log`  
-`logi`  
-`logw`  
-`loge`  
-`def`
+| Prefix | Code                 | Description                            |
+| ------ | -------------------- | -------------------------------------- |
+| `log`  | logging.info(\$1)    | Logs an info message to the console.   |
+| `logi` | logging.info(\$1)    | Logs an info message to the console.   |
+| `logw` | logging.warning(\$1) | Logs a warning message to the console. |
+| `loge` | logging.error(\$1)   | Logs an error message to the console.  |
+
+### `def`
+
+Method definition with docstring.
+
+```python
+def $1():
+    """ $2
+
+    Parameters:
+        None
+
+    Returns:
+        None
+    """
+
+    return
+```
