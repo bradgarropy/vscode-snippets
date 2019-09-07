@@ -18,19 +18,19 @@ Functional stateless component template.
 import React from "react"
 import PropTypes from "prop-types"
 
-const $1 = ({$2: props}) => {
+const ${1:TM_FILENAME_BASE} = (${2:props}) => {
     return (
         <div>
-            <h1>$1</h1>
+            <h1>${1:TM_FILENAME_BASE}</h1>
         </div>
     )
 }
 
-$1.propTypes = {
+${1:TM_FILENAME_BASE}.propTypes = {
     $3,
 }
 
-export default $1
+export default ${1:TM_FILENAME_BASE}
 ```
 
 ## Python
