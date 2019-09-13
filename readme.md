@@ -12,6 +12,10 @@
 
 ## React
 
+| Prefix | Code                                                        | Description     |
+| ------ | ----------------------------------------------------------- | --------------- |
+| `us`   | `const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2)` | Use state hook. |
+
 ### `rc`
 
 Functional stateless component.
