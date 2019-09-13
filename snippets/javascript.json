@@ -34,6 +34,11 @@
         "body": ["useEffect(($1) => {", "    $2", "}, [$3])"],
         "description": "Use effect hook."
     },
+    "Use Layout Effect": {
+        "prefix": "ule",
+        "body": ["useLayoutEffect(($1) => {", "    $2", "}, [$3])"],
+        "description": "Use layout effect hook."
+    },
     "React Component": {
         "prefix": "rc",
         "body": [
