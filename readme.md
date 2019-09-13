@@ -12,9 +12,10 @@
 
 ## React
 
-| Prefix | Code                                                        | Description     |
-| ------ | ----------------------------------------------------------- | --------------- |
-| `us`   | `const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2)` | Use state hook. |
+| Prefix | Description      |
+| ------ | ---------------- |
+| `us`   | Use state hook.  |
+| `ue`   | Use effect hook. |
 
 ### `rc`
 
