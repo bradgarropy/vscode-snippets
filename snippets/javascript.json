@@ -39,6 +39,13 @@
         "body": ["useLayoutEffect(($1) => {", "    $2", "}, [$3])"],
         "description": "Use layout effect hook."
     },
+    "Use Context": {
+        "prefix": "uc",
+        "body": [
+            "const $1Context = useContext(${1/(.*)/${1:/capitalize}/}Context)"
+        ],
+        "description": "Use context hook."
+    },
     "React Component": {
         "prefix": "rc",
         "body": [

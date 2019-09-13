@@ -17,6 +17,7 @@
 | `us`   | Use state hook.         |
 | `ue`   | Use effect hook.        |
 | `ule`  | Use layout effect hook. |
+| `uc`   | Use context hook.       |
 
 ### `rc`
 
