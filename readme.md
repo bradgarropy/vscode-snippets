@@ -2,13 +2,13 @@
 
 ## JavaScript
 
-| Prefix | Code                      | Description                 |
-| ------ | ------------------------- | --------------------------- |
-| `log`  | `console.log($1)`         | Logs output to the console. |
-| `imp`  | `import $2 from "$1"`     | Import statement.           |
-| `nimp` | `import {$2} from "$1"`   | Named import statement.     |
-| `af`   | `const $1 = ($2) => {$3}` | Arrow function.             |
-| `aaf`  | `($1) => {$2}`            | Anonymous arrow function.   |
+| Prefix | Description                 |
+| ------ | --------------------------- |
+| `log`  | Logs output to the console. |
+| `imp`  | Import statement.           |
+| `nimp` | Named import statement.     |
+| `af`   | Arrow function.             |
+| `aaf`  | Anonymous arrow function.   |
 
 ## React
 
@@ -18,55 +18,16 @@
 | `ue`   | Use effect hook.        |
 | `ule`  | Use layout effect hook. |
 | `uc`   | Use context hook.       |
-
-### `rc`
-
-Functional stateless component.
-
-```javascript
-import React from "react"
-import PropTypes from "prop-types"
-
-const ${1:TM_FILENAME_BASE} = (${2:props}) => {
-    return (
-        <div>
-            <h1>${1:TM_FILENAME_BASE}</h1>
-        </div>
-    )
-}
-
-${1:TM_FILENAME_BASE}.propTypes = {
-    $3,
-}
-
-export default ${1:TM_FILENAME_BASE}
-```
+| `rc`   | React component.        |
 
 ## Python
 
-| Prefix | Code                  | Description                            |
-| ------ | --------------------- | -------------------------------------- |
-| `log`  | `logging.info($1)`    | Logs an info message to the console.   |
-| `logi` | `logging.info($1)`    | Logs an info message to the console.   |
-| `logw` | `logging.warning($1)` | Logs a warning message to the console. |
-| `loge` | `logging.error($1)`   | Logs an error message to the console.  |
-
-### `def`
-
-Method definition with docstring.
-
-```python
-def $1():
-    """ $2
-
-    Parameters:
-        None
-
-    Returns:
-        None
-    """
-
-    return
-```
+| Prefix | Description                            |
+| ------ | -------------------------------------- |
+| `log`  | Logs an info message to the console.   |
+| `logi` | Logs an info message to the console.   |
+| `logw` | Logs a warning message to the console. |
+| `loge` | Logs an error message to the console.  |
+| `def`  | Method definition with docstring.      |
 
 [vscode]: https://code.visualstudio.com

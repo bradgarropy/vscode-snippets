@@ -17,12 +17,12 @@
     "Arrow Function": {
         "prefix": "af",
         "body": ["const $1 = ($2) => {$3}"],
-        "description": "Arrow function template."
+        "description": "Arrow function."
     },
     "Anonymous Arrow Function": {
         "prefix": "aaf",
         "body": ["($1) => {$2}"],
-        "description": "Anonymous arrow function template."
+        "description": "Anonymous arrow function."
     },
     "Use State": {
         "prefix": "us",
@@ -67,6 +67,6 @@
             "export default ${1:$TM_FILENAME_BASE}",
             ""
         ],
-        "description": "Functional stateless component template."
+        "description": "React component."
     }
 }
