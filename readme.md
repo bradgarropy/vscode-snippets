@@ -10,15 +10,21 @@
 | `af`   | Arrow function.             |
 | `aaf`  | Anonymous arrow function.   |
 
+## Jest
+
+| Prefix | Description    |
+| ------ | -------------- |
+| `jd`   | Jest describe. |
+
 ## React
 
 | Prefix | Description             |
 | ------ | ----------------------- |
+| `rc`   | React component.        |
 | `us`   | Use state hook.         |
 | `ue`   | Use effect hook.        |
 | `ule`  | Use layout effect hook. |
 | `uc`   | Use context hook.       |
-| `rc`   | React component.        |
 
 ## Python
 
