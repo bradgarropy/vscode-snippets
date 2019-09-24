@@ -12,12 +12,13 @@
 
 ## Jest
 
-| Prefix | Description     |
-| ------ | --------------- |
-| `jd`   | Jest describe.  |
-| `jt`   | Jest test.      |
-| `jba`  | Jest beforeAll. |
-| `jaa`  | Jest afterAll.  |
+| Prefix | Description      |
+| ------ | ---------------- |
+| `jd`   | Jest describe.   |
+| `jt`   | Jest test.       |
+| `jba`  | Jest beforeAll.  |
+| `jaa`  | Jest afterAll.   |
+| `jbe`  | Jest beforeEach. |
 
 ## React
 
