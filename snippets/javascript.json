@@ -39,6 +39,11 @@
         "body": ["beforeAll(() => {$1})"],
         "description": "Jest beforeAll."
     },
+    "Jest After All": {
+        "prefix": "jaa",
+        "body": ["afterAll(() => {$1})"],
+        "description": "Jest afterAll."
+    },
     "React Component": {
         "prefix": "rc",
         "body": [

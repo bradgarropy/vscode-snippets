@@ -17,6 +17,7 @@
 | `jd`   | Jest describe.  |
 | `jt`   | Jest test.      |
 | `jba`  | Jest beforeAll. |
+| `jaa`  | Jest afterAll.  |
 
 ## React
 
