@@ -34,6 +34,11 @@
         "body": ["test(\"$1\", () => {$2})"],
         "description": "Jest test."
     },
+    "Jest Before All": {
+        "prefix": "jba",
+        "body": ["beforeAll(() => {$1})"],
+        "description": "Jest beforeAll."
+    },
     "React Component": {
         "prefix": "rc",
         "body": [
