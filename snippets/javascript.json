@@ -29,6 +29,11 @@
         "body": ["describe(\"$1\", () => {$2})"],
         "description": "Jest describe."
     },
+    "Jest Test": {
+        "prefix": "jt",
+        "body": ["test(\"$1\", () => {$2})"],
+        "description": "Jest test."
+    },
     "React Component": {
         "prefix": "rc",
         "body": [

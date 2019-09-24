@@ -15,6 +15,7 @@
 | Prefix | Description    |
 | ------ | -------------- |
 | `jd`   | Jest describe. |
+| `jt`   | Jest test.     |
 
 ## React
 
