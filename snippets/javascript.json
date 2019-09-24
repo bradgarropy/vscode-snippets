@@ -49,6 +49,11 @@
         "body": ["beforeEach(() => {$1})"],
         "description": "Jest beforeEach."
     },
+    "Jest After Each": {
+        "prefix": "jae",
+        "body": ["afterEach(() => {$1})"],
+        "description": "Jest afterEach."
+    },
     "React Component": {
         "prefix": "rc",
         "body": [

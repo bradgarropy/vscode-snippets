@@ -19,6 +19,7 @@
 | `jba`  | Jest beforeAll.  |
 | `jaa`  | Jest afterAll.   |
 | `jbe`  | Jest beforeEach. |
+| `jae`  | Jest afterEach.  |
 
 ## React
 
