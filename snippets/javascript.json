@@ -98,5 +98,10 @@
             "const $1Context = useContext(${1/(.*)/${1:/capitalize}/}Context)"
         ],
         "description": "Use context hook."
+    },
+    "Styled Component": {
+        "prefix": "sc",
+        "body": ["const $1 = styled.$2`", "  $3", "`"],
+        "description": "Styled component."
     }
 }

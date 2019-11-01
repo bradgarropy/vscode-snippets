@@ -31,6 +31,12 @@
 | `ule`  | Use layout effect hook. |
 | `uc`   | Use context hook.       |
 
+## Styled Components
+
+| Prefix | Description       |
+| ------ | ----------------- |
+| `sc`   | Styled component. |
+
 ## Python
 
 | Prefix | Description                            |
