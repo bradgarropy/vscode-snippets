@@ -16,6 +16,7 @@
 | ------ | ---------------- |
 | `jd`   | Jest describe.   |
 | `jt`   | Jest test.       |
+| `je`   | Jest expect.     |
 | `jba`  | Jest beforeAll.  |
 | `jaa`  | Jest afterAll.   |
 | `jbe`  | Jest beforeEach. |
