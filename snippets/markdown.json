@@ -1,0 +1,67 @@
+{
+    "Link": {
+        "prefix": "ml",
+        "body": "[$1][${2:$1}]",
+        "description": "Reference style link."
+    },
+    "Link Reference": {
+        "prefix": "mlr",
+        "body": "[$1]: $2",
+        "description": "Link reference."
+    },
+    "Bold": {
+        "prefix": "mb",
+        "body": "**$1**",
+        "description": "Bold text."
+    },
+    "Italic": {
+        "prefix": "mi",
+        "body": "*$1*",
+        "description": "Italic text."
+    },
+    "Blockquote": {
+        "prefix": "mbq",
+        "body": "> $1",
+        "description": "Blockquote."
+    },
+    "H1": {
+        "prefix": "mh",
+        "body": "# $1",
+        "description": "First level header."
+    },
+    "H2": {
+        "prefix": "mhh",
+        "body": "## $1",
+        "description": "Second level header."
+    },
+    "H3": {
+        "prefix": "mhhh",
+        "body": "### $1",
+        "description": "Third level header."
+    },
+    "H4": {
+        "prefix": "mhhhh",
+        "body": "#### $1",
+        "description": "Fourth level header."
+    },
+    "H5": {
+        "prefix": "mhhhhh",
+        "body": "##### $1",
+        "description": "Fifth level header."
+    },
+    "H6": {
+        "prefix": "mhhhhhh",
+        "body": "###### $1",
+        "description": "Sixth level header."
+    },
+    "Code": {
+        "prefix": "mc",
+        "body": "`$1`",
+        "description": "Inline code."
+    },
+    "Code Block": {
+        "prefix": "mcb",
+        "body": ["```", "$1", "```"],
+        "description": "Block of code."
+    }
+}
