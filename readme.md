@@ -1,3 +1,11 @@
+<a href="https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets">
+    <img alt="vscode" src="https://img.shields.io/visual-studio-marketplace/v/bradgarropy.bg-snippets?style=flat-square">
+</a>
+
+<a href="https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets">
+    <img alt="vscode" src="https://img.shields.io/visual-studio-marketplace/i/bradgarropy.bg-snippets?style=flat-square">
+</a>
+
 ✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, Markdown, and Python._
 
 ## JavaScript
