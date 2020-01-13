@@ -44,6 +44,7 @@
 | --------- | --------------------- |
 | `ml`      | Reference style link. |
 | `mlr`     | Link reference.       |
+| `mli`     | Inline style link.    |
 | `mb`      | Bold text.            |
 | `mi`      | Italic text.          |
 | `mbq`     | Blockquote.           |
