@@ -1,4 +1,4 @@
-✂️ _[Visual Studio Code][vscode] snippet library for JavaScript and Python._
+✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, Markdown, and Python._
 
 ## JavaScript
 
@@ -37,6 +37,25 @@
 | Prefix | Description       |
 | ------ | ----------------- |
 | `sc`   | Styled component. |
+
+## Markdown
+
+| Prefix    | Description           |
+| --------- | --------------------- |
+| `ml`      | Reference style link. |
+| `mlr`     | Link reference.       |
+| `mli`     | Inline style link.    |
+| `mb`      | Bold text.            |
+| `mi`      | Italic text.          |
+| `mbq`     | Blockquote.           |
+| `mh`      | First level header.   |
+| `mhh`     | Second level header.  |
+| `mhhh`    | Third level header.   |
+| `mhhhh`   | Fourth level header.  |
+| `mhhhhh`  | Fifth level header.   |
+| `mhhhhhh` | Sixth level header.   |
+| `mc`      | Inline code.          |
+| `mcb`     | Block of code.        |
 
 ## Python
 
