@@ -1,6 +1,6 @@
 {
     "name": "bg-snippets",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "description": "✂️ vscode snippet library",
     "keywords": [
         "vscode",
@@ -11,7 +11,8 @@
         "react",
         "styled-components",
         "markdown",
-        "python"
+        "python",
+        "serverless"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets",
     "bugs": {
