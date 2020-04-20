@@ -24,6 +24,23 @@
         "body": ["($1) => {$2}"],
         "description": "Anonymous arrow function."
     },
+    "Serverless Function": {
+        "prefix": "sf",
+        "body": [
+            "const handler = async (${1:event}) => {",
+            "    const response = {",
+            "        statusCode: 200,",
+            "        body: \"${2:$TM_FILENAME_BASE}\",",
+            "    }",
+            "",
+            "    return response",
+            "}",
+            "",
+            "module.exports = {handler}",
+            ""
+        ],
+        "description": "Netlify serverless function."
+    },
     "Jest Describe": {
         "prefix": "jd",
         "body": ["describe(\"$1\", () => {$2})"],

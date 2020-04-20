@@ -1,17 +1,19 @@
 name: "🚀 release"
+
 on:
-  release:
-    types: [published]
+    release:
+        types: [published]
+
 jobs:
-  build:
-    name: "🚀 release"
-    runs-on: ubuntu-latest
-    steps:
-    - name: "📚 checkout"
-      uses: actions/checkout@master
-    - name: "📦 publish"
-      uses: lannonbr/vsce-action@master
-      with:
-        args: publish -p $VSCE_PAT
-      env:
-        VSCE_PAT: ${{ secrets.VSCE_PAT }}
+    build:
+        name: "🚀 release"
+        runs-on: ubuntu-latest
+        steps:
+            - name: "📚 checkout"
+              uses: actions/checkout@master
+            - name: "📦 publish"
+              uses: lannonbr/vsce-action@master
+              with:
+                  args: publish -p $VSCE_PAT
+              env:
+                  VSCE_PAT: ${{ secrets.VSCE_PAT }}

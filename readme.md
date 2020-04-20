@@ -18,6 +18,12 @@
 | `af`   | Arrow function.             |
 | `aaf`  | Anonymous arrow function.   |
 
+## Serverless
+
+| Prefix | Description                  |
+| ------ | ---------------------------- |
+| `sf`   | Netlify serverless function. |
+
 ## Jest
 
 | Prefix | Description      |
