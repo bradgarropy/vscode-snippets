@@ -1,0 +1,129 @@
+{
+    "Console Log": {
+        "prefix": "log",
+        "body": "console.log($1)",
+        "description": "Logs output to the console."
+    },
+    "Import": {
+        "prefix": "imp",
+        "body": "import $2 from \"$1\"",
+        "description": "Import statement."
+    },
+    "Named Import": {
+        "prefix": "nimp",
+        "body": "import {$2} from \"$1\"",
+        "description": "Named import statement."
+    },
+    "Arrow Function": {
+        "prefix": "af",
+        "body": ["const $1 = ($2) => {$3}"],
+        "description": "Arrow function."
+    },
+    "Anonymous Arrow Function": {
+        "prefix": "aaf",
+        "body": ["($1) => {$2}"],
+        "description": "Anonymous arrow function."
+    },
+    "Serverless Function": {
+        "prefix": "sf",
+        "body": [
+            "const handler = async (${1:event}) => {",
+            "    const response = {",
+            "        statusCode: 200,",
+            "        body: \"${2:$TM_FILENAME_BASE}\",",
+            "    }",
+            "",
+            "    return response",
+            "}",
+            "",
+            "module.exports = {handler}",
+            ""
+        ],
+        "description": "Netlify serverless function."
+    },
+    "Jest Describe": {
+        "prefix": "jd",
+        "body": ["describe(\"$1\", () => {$2})"],
+        "description": "Jest describe."
+    },
+    "Jest Test": {
+        "prefix": "jt",
+        "body": ["test(\"$1\", () => {$2})"],
+        "description": "Jest test."
+    },
+    "Jest Expect": {
+        "prefix": "je",
+        "body": ["expect($1).${2:toEqual}($3)"],
+        "description": "Jest expect."
+    },
+    "Jest Before All": {
+        "prefix": "jba",
+        "body": ["beforeAll(() => {$1})"],
+        "description": "Jest beforeAll."
+    },
+    "Jest After All": {
+        "prefix": "jaa",
+        "body": ["afterAll(() => {$1})"],
+        "description": "Jest afterAll."
+    },
+    "Jest Before Each": {
+        "prefix": "jbe",
+        "body": ["beforeEach(() => {$1})"],
+        "description": "Jest beforeEach."
+    },
+    "Jest After Each": {
+        "prefix": "jae",
+        "body": ["afterEach(() => {$1})"],
+        "description": "Jest afterEach."
+    },
+    "React Component": {
+        "prefix": "rc",
+        "body": [
+            "import React, {FC} from \"react\"",
+            "import PropTypes from \"prop-types\"",
+            "",
+            "const ${1:$TM_FILENAME_BASE}: FC = (${2:props}) => {",
+            "    return (",
+            "        <div>",
+            "            <h1>${1:$TM_FILENAME_BASE}</h1>",
+            "        </div>",
+            "    )",
+            "}",
+            "",
+            "${1:$TM_FILENAME_BASE}.propTypes = {",
+            "    $3",
+            "}",
+            "",
+            "export default ${1:$TM_FILENAME_BASE}",
+            ""
+        ],
+        "description": "React component."
+    },
+    "Use State": {
+        "prefix": "us",
+        "body": ["const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2)"],
+        "description": "Use state hook."
+    },
+    "Use Effect": {
+        "prefix": "ue",
+        "body": ["useEffect(($1) => {", "    $2", "}, [$3])"],
+        "description": "Use effect hook."
+    },
+    "Use Layout Effect": {
+        "prefix": "ule",
+        "body": ["useLayoutEffect(($1) => {", "    $2", "}, [$3])"],
+        "description": "Use layout effect hook."
+    },
+    "Use Context": {
+        "prefix": "uc",
+        "body": [
+            "const $1Context = useContext(${1/(.*)/${1:/capitalize}/}Context)"
+        ],
+        "description": "Use context hook."
+    },
+    "Styled Component": {
+        "prefix": "sc",
+        "body": ["const $1 = styled.$2`", "  $3", "`"],
+        "description": "Styled component."
+    }
+}

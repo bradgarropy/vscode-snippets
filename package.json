@@ -53,6 +53,14 @@
                 "path": "./snippets/javascript.json"
             },
             {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/typescript.json"
+            },
+            {
                 "language": "markdown",
                 "path": "./snippets/markdown.json"
             },
