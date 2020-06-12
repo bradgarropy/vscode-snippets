@@ -6,9 +6,9 @@
     <img alt="vscode" src="https://img.shields.io/visual-studio-marketplace/i/bradgarropy.bg-snippets?style=flat-square">
 </a>
 
-✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, Markdown, and Python._
+✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, TypeScript, Markdown, and Python._
 
-## JavaScript
+## JavaScript / TypeScript
 
 | Prefix | Description                 |
 | ------ | --------------------------- |
