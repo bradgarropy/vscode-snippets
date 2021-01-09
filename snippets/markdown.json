@@ -9,6 +9,11 @@
         "body": "[$1]: $2",
         "description": "Link reference."
     },
+    "Image": {
+        "prefix": "mimg",
+        "body": "![$1][${2:$1}]",
+        "description": "Image."
+    },
     "Bold": {
         "prefix": "mb",
         "body": "**$1**",
