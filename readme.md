@@ -8,7 +8,7 @@
 
 ✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, TypeScript, Markdown, and Python._
 
-## JavaScript / TypeScript
+## ☕️ JavaScript / 🔵 TypeScript
 
 | Prefix | Description                 |
 | ------ | --------------------------- |
@@ -18,13 +18,13 @@
 | `af`   | Arrow function.             |
 | `aaf`  | Anonymous arrow function.   |
 
-## Serverless
+## ⚡️ Serverless
 
 | Prefix | Description                  |
 | ------ | ---------------------------- |
 | `sf`   | Netlify serverless function. |
 
-## Jest
+## 🃏 Jest
 
 | Prefix | Description      |
 | ------ | ---------------- |
@@ -36,7 +36,7 @@
 | `jbe`  | Jest beforeEach. |
 | `jae`  | Jest afterEach.  |
 
-## React
+## ⚛️ React
 
 | Prefix | Description             |
 | ------ | ----------------------- |
@@ -46,13 +46,13 @@
 | `ule`  | Use layout effect hook. |
 | `uc`   | Use context hook.       |
 
-## Styled Components
+## 💅🏼 Styled Components
 
 | Prefix | Description       |
 | ------ | ----------------- |
 | `sc`   | Styled component. |
 
-## Markdown
+## 🔻 Markdown
 
 | Prefix    | Description           |
 | --------- | --------------------- |
@@ -72,7 +72,7 @@
 | `mc`      | Inline code.          |
 | `mcb`     | Block of code.        |
 
-## Python
+## 🐍 Python
 
 | Prefix | Description                            |
 | ------ | -------------------------------------- |

@@ -1,0 +1,37 @@
+{
+    "Jest Describe": {
+        "prefix": "jd",
+        "body": ["describe(\"$1\", () => {$2})"],
+        "description": "Jest describe."
+    },
+    "Jest Test": {
+        "prefix": "jt",
+        "body": ["test(\"$1\", () => {$2})"],
+        "description": "Jest test."
+    },
+    "Jest Expect": {
+        "prefix": "je",
+        "body": ["expect($1).${2:toEqual}($3)"],
+        "description": "Jest expect."
+    },
+    "Jest Before All": {
+        "prefix": "jba",
+        "body": ["beforeAll(() => {$1})"],
+        "description": "Jest beforeAll."
+    },
+    "Jest After All": {
+        "prefix": "jaa",
+        "body": ["afterAll(() => {$1})"],
+        "description": "Jest afterAll."
+    },
+    "Jest Before Each": {
+        "prefix": "jbe",
+        "body": ["beforeEach(() => {$1})"],
+        "description": "Jest beforeEach."
+    },
+    "Jest After Each": {
+        "prefix": "jae",
+        "body": ["afterEach(() => {$1})"],
+        "description": "Jest afterEach."
+    }
+}

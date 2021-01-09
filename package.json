@@ -1,6 +1,6 @@
 {
     "name": "bg-snippets",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "✂️ vscode snippet library",
     "keywords": [
         "vscode",
@@ -54,8 +54,64 @@
                 "path": "./snippets/javascript.json"
             },
             {
+                "language": "javascript",
+                "path": "./snippets/react.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/styled.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverless.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/jest.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/react.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/styled.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/serverless.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/jest.json"
+            },
+            {
                 "language": "typescript",
                 "path": "./snippets/typescript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/styled.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/serverless.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/jest.json"
             },
             {
                 "language": "typescriptreact",
