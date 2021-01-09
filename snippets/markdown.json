@@ -1,5 +1,5 @@
 {
-    "Link": {
+    "Reference Link": {
         "prefix": "ml",
         "body": "[$1][${2:$1}]",
         "description": "Reference style link."
@@ -8,6 +8,11 @@
         "prefix": "mlr",
         "body": "[$1]: $2",
         "description": "Link reference."
+    },
+    "Inline Link": {
+        "prefix": "mli",
+        "body": "[$1]($2)",
+        "description": "Inline style link."
     },
     "Image": {
         "prefix": "mimg",

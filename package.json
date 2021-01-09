@@ -1,17 +1,19 @@
 {
     "name": "bg-snippets",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "✂️ vscode snippet library",
     "keywords": [
         "vscode",
         "extension",
         "snippets",
         "javascript",
+        "typescript",
         "jest",
         "react",
         "styled-components",
         "markdown",
-        "python"
+        "python",
+        "serverless"
     ],
     "homepage": "https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets",
     "bugs": {
@@ -50,6 +52,14 @@
             {
                 "language": "javascript",
                 "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/typescript.json"
             },
             {
                 "language": "markdown",

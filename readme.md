@@ -1,6 +1,14 @@
-✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, Markdown, and Python._
+<a href="https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets">
+    <img alt="vscode" src="https://img.shields.io/visual-studio-marketplace/v/bradgarropy.bg-snippets?style=flat-square">
+</a>
 
-## JavaScript
+<a href="https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets">
+    <img alt="vscode" src="https://img.shields.io/visual-studio-marketplace/i/bradgarropy.bg-snippets?style=flat-square">
+</a>
+
+✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, TypeScript, Markdown, and Python._
+
+## JavaScript / TypeScript
 
 | Prefix | Description                 |
 | ------ | --------------------------- |
@@ -9,6 +17,12 @@
 | `nimp` | Named import statement.     |
 | `af`   | Arrow function.             |
 | `aaf`  | Anonymous arrow function.   |
+
+## Serverless
+
+| Prefix | Description                  |
+| ------ | ---------------------------- |
+| `sf`   | Netlify serverless function. |
 
 ## Jest
 
@@ -44,6 +58,7 @@
 | --------- | --------------------- |
 | `ml`      | Reference style link. |
 | `mlr`     | Link reference.       |
+| `mli`     | Inline style link.    |
 | `mimg`    | Image.                |
 | `mb`      | Bold text.            |
 | `mi`      | Italic text.          |
