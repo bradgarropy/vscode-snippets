@@ -59,6 +59,7 @@
 | `ml`      | Reference style link. |
 | `mlr`     | Link reference.       |
 | `mli`     | Inline style link.    |
+| `mimg`    | Image.                |
 | `mb`      | Bold text.            |
 | `mi`      | Italic text.          |
 | `mbq`     | Blockquote.           |

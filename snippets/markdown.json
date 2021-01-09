@@ -14,6 +14,11 @@
         "body": "[$1]($2)",
         "description": "Inline style link."
     },
+    "Image": {
+        "prefix": "mimg",
+        "body": "![$1][${2:$1}]",
+        "description": "Image."
+    },
     "Bold": {
         "prefix": "mb",
         "body": "**$1**",

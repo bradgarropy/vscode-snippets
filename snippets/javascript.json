@@ -79,7 +79,6 @@
     "React Component": {
         "prefix": "rc",
         "body": [
-            "import React from \"react\"",
             "import PropTypes from \"prop-types\"",
             "",
             "const ${1:$TM_FILENAME_BASE} = (${2:props}) => {",
