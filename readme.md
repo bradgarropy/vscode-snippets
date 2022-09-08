@@ -1,12 +1,8 @@
-<a href="https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets">
-    <img alt="vscode" src="https://img.shields.io/visual-studio-marketplace/v/bradgarropy.bg-snippets?style=flat-square">
-</a>
+[![version][version-badge]][marketplace]
+[![downloads][downloads-badge]][marketplace]
+[![discord][discord-badge]][discord]
 
-<a href="https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets">
-    <img alt="vscode" src="https://img.shields.io/visual-studio-marketplace/i/bradgarropy.bg-snippets?style=flat-square">
-</a>
-
-✂️ _[Visual Studio Code][vscode] snippet library for JavaScript, TypeScript, Markdown, and Python._
+✂️ _[Visual Studio Code][vscode] snippet library for [JavaScript][javascript], [TypeScript][typescript], [Markdown][markdown], and [Python][python]._
 
 ### ☕️ JavaScript / 🔵 TypeScript
 
@@ -46,6 +42,18 @@
 | `ule`  | Use layout effect hook. |
 | `uc`   | Use context hook.       |
 
+### 💿 Remix
+
+| Prefix  | Description            |
+| ------- | ---------------------- |
+| `rmxlk` | Remix links function.  |
+| `rmxm`  | Remix meta function.   |
+| `rmxld` | Remix loader function. |
+| `rmxa`  | Remix action function. |
+| `rmxcb` | Remix catch boundary.  |
+| `rmxeb` | Remix error boundary.  |
+| `rmxr`  | Remix route.           |
+
 ### 💅🏼 Styled Components
 
 | Prefix | Description       |
@@ -83,3 +91,12 @@
 | `def`  | Method definition with docstring.      |
 
 [vscode]: https://code.visualstudio.com
+[version-badge]: https://img.shields.io/visual-studio-marketplace/v/bradgarropy.bg-snippets?style=flat-square
+[downloads-badge]: https://img.shields.io/visual-studio-marketplace/i/bradgarropy.bg-snippets?style=flat-square
+[discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square
+[marketplace]: https://marketplace.visualstudio.com/items?itemName=bradgarropy.bg-snippets
+[discord]: https://bradgarropy.com/discord
+[javascript]: https://javascript.com
+[typescript]: https://typescriptlang.org
+[markdown]: https://markdownguide.org
+[python]: https://python.org

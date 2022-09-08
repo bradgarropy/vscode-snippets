@@ -1,0 +1,135 @@
+{
+    "Remix Links": {
+        "prefix": "rmxlk",
+        "body": [
+            "const links: LinksFunction = () => {",
+            "    const links: LinkDescriptor[] = [",
+            "        {",
+            "            href: $1,",
+            "            rel: \"${2:stylesheet}\",",
+            "        },",
+            "    ]",
+            "",
+            "    return links",
+            "}"
+        ],
+        "description": "Remix links function."
+    },
+    "Remix Meta": {
+        "prefix": "rmxm",
+        "body": [
+            "const meta: MetaFunction = () => {",
+            "    const meta: HtmlMetaDescriptor = {",
+            "        ${1:title}: \"$2\",",
+            "    }",
+            "",
+            "    return meta",
+            "}"
+        ],
+        "description": "Remix meta function."
+    },
+    "Remix Loader": {
+        "prefix": "rmxld",
+        "body": [
+            "type LoaderData = {$1}",
+            "",
+            "const loader: LoaderFunction = async (${2:{request, params\\}}) => {",
+            "    const data: LoaderData = {$3}",
+            "    return json<LoaderData>(data)",
+            "}"
+        ],
+        "description": "Remix loader function."
+    },
+    "Remix Action": {
+        "prefix": "rmxa",
+        "body": [
+            "const action: ActionFunction = async (${1:{request, params\\}}) => {",
+            "    return redirect(\"${2:/}\")",
+            "}"
+        ],
+        "description": "Remix action function."
+    },
+    "Remix Catch Boundary": {
+        "prefix": "rmxcb",
+        "body": [
+            "const CatchBoundary = () => {",
+            "    ${1:const caught = useCatch()}",
+            "    ${2:const params = useParams()}",
+            "",
+            "    return <p>${3:Something went wrong.}</p>",
+            "}"
+        ],
+        "description": "Remix catch boundary."
+    },
+    "Remix Error Boundary": {
+        "prefix": "rmxeb",
+        "body": [
+            "const ErrorBoundary: ErrorBoundaryComponent = (${1:{error\\}}) => {",
+            "    console.log(error)",
+            "",
+            "    ${2:const params = useParams()}",
+            "    return <p>${3:{params.toString()\\}}</p>",
+            "}"
+        ],
+        "description": "Remix error boundary."
+    },
+    "Remix Route": {
+        "prefix": "rmxr",
+        "body": [
+            "import type {",
+            "    ActionFunction,",
+            "    ErrorBoundaryComponent,",
+            "    HtmlMetaDescriptor,",
+            "    LinkDescriptor,",
+            "    LinksFunction,",
+            "    LoaderFunction,",
+            "    MetaFunction,",
+            "} from \"@remix-run/node\"",
+            "import {json, redirect} from \"@remix-run/node\"",
+            "import {useCatch, useParams} from \"@remix-run/react\"",
+            "",
+            "const links: LinksFunction = () => {",
+            "    const links: LinkDescriptor[] = []",
+            "    return links",
+            "}",
+            "",
+            "const meta: MetaFunction = () => {",
+            "    const meta: HtmlMetaDescriptor = {}",
+            "    return meta",
+            "}",
+            "",
+            "type LoaderData = {}",
+            "",
+            "const loader: LoaderFunction = async ({request, params}) => {",
+            "    const data: LoaderData = {}",
+            "    return json<LoaderData>(data)",
+            "}",
+            "",
+            "const action: ActionFunction = async ({request, params}) => {",
+            "    return redirect(\"/\")",
+            "}",
+            "",
+            "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Route = () => {",
+            "    return <h2>${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Route</h2>",
+            "}",
+            "",
+            "const CatchBoundary = () => {",
+            "    const caught = useCatch()",
+            "    const params = useParams()",
+            "",
+            "    return <p>Something went wrong.</p>",
+            "}",
+            "",
+            "const ErrorBoundary: ErrorBoundaryComponent = ({error}) => {",
+            "    console.log(error)",
+            "",
+            "    const params = useParams()",
+            "    return <p>Something went wrong.</p>",
+            "}",
+            "",
+            "export default ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Route",
+            "export {action, CatchBoundary, ErrorBoundary, links, loader, meta}"
+        ],
+        "description": "Remix route."
+    }
+}
