@@ -14,6 +14,6 @@ jobs:
             - name: "📦 publish"
               uses: lannonbr/vsce-action@master
               with:
-                  args: publish -p $VSCE_PAT
+                  args: "publish -p $VSCE_TOKEN"
               env:
-                  VSCE_PAT: ${{ secrets.VSCE_PAT }}
+                  VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
