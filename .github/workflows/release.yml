@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "📚 checkout"
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4.2.2
             - name: "📦 publish"
               uses: lannonbr/vsce-action@master
               with:
