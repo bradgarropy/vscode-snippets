@@ -2,18 +2,16 @@
     "React Component": {
         "prefix": "rc",
         "body": [
-            "import PropTypes from \"prop-types\"",
+            "import type {FC} from \"react\"",
             "",
-            "const ${1:$TM_FILENAME_BASE} = (${2:props}) => {",
+            "type ${1:$TM_FILENAME_BASE}Props = {${2}}",
+            "",
+            "const ${1:$TM_FILENAME_BASE}: FC<${1:$TM_FILENAME_BASE}Props> = ({${3}}) => {",
             "    return (",
             "        <div>",
             "            <h1>${1:$TM_FILENAME_BASE}</h1>",
             "        </div>",
             "    )",
-            "}",
-            "",
-            "${1:$TM_FILENAME_BASE}.propTypes = {",
-            "    $3",
             "}",
             "",
             "export default ${1:$TM_FILENAME_BASE}",
@@ -28,12 +26,12 @@
     },
     "Use Effect": {
         "prefix": "ue",
-        "body": ["useEffect(($1) => {", "    $2", "}, [$3])"],
+        "body": ["useEffect(() => {", "    $1", "}, [$2])"],
         "description": "Use effect hook."
     },
     "Use Layout Effect": {
         "prefix": "ule",
-        "body": ["useLayoutEffect(($1) => {", "    $2", "}, [$3])"],
+        "body": ["useLayoutEffect(() => {", "    $1", "}, [$2])"],
         "description": "Use layout effect hook."
     },
     "Use Context": {

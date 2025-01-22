@@ -1,0 +1,37 @@
+{
+    "Vitest Describe": {
+        "prefix": "vd",
+        "body": ["describe(\"$1\", () => {$2})"],
+        "description": "Vitest describe."
+    },
+    "Vitest Test": {
+        "prefix": "vt",
+        "body": ["test(\"$1\", () => {$2})"],
+        "description": "Vitest test."
+    },
+    "Vitest Expect": {
+        "prefix": "ve",
+        "body": ["expect($1).${2:toEqual}($3)"],
+        "description": "Vitest expect."
+    },
+    "Vitest Before All": {
+        "prefix": "vba",
+        "body": ["beforeAll(() => {$1})"],
+        "description": "Vitest beforeAll."
+    },
+    "Vitest After All": {
+        "prefix": "vaa",
+        "body": ["afterAll(() => {$1})"],
+        "description": "Vitest afterAll."
+    },
+    "Vitest Before Each": {
+        "prefix": "vbe",
+        "body": ["beforeEach(() => {$1})"],
+        "description": "Vitest beforeEach."
+    },
+    "Vitest After Each": {
+        "prefix": "vae",
+        "body": ["afterEach(() => {$1})"],
+        "description": "Vitest afterEach."
+    }
+}

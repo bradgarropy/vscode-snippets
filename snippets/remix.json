@@ -2,7 +2,7 @@
     "Remix Links": {
         "prefix": "rmxlk",
         "body": [
-            "const links: LinksFunction = () => {",
+            "export const links: LinksFunction = () => {",
             "    const links: LinkDescriptor[] = [",
             "        {",
             "            href: $1,",
@@ -18,7 +18,7 @@
     "Remix Meta": {
         "prefix": "rmxm",
         "body": [
-            "const meta: MetaFunction = () => {",
+            "export const meta: MetaFunction = () => {",
             "    const meta: HtmlMetaDescriptor = {",
             "        ${1:title}: \"$2\",",
             "    }",
@@ -31,11 +31,9 @@
     "Remix Loader": {
         "prefix": "rmxld",
         "body": [
-            "type LoaderData = {$1}",
-            "",
-            "const loader: LoaderFunction = async (${2:{request, params\\}}) => {",
-            "    const data: LoaderData = {$3}",
-            "    return json<LoaderData>(data)",
+            "export const loader = async (${2:{request, params\\}}: LoaderFunctionArgs) => {",
+            "    const data = {$3}",
+            "    return json(data)",
             "}"
         ],
         "description": "Remix loader function."
@@ -43,28 +41,16 @@
     "Remix Action": {
         "prefix": "rmxa",
         "body": [
-            "const action: ActionFunction = async (${1:{request, params\\}}) => {",
+            "export const action = async (${1:{request, params\\}}: ActionFunctionArgs) => {",
             "    return redirect(\"${2:/}\")",
             "}"
         ],
         "description": "Remix action function."
     },
-    "Remix Catch Boundary": {
-        "prefix": "rmxcb",
-        "body": [
-            "const CatchBoundary = () => {",
-            "    ${1:const caught = useCatch()}",
-            "    ${2:const params = useParams()}",
-            "",
-            "    return <p>${3:Something went wrong.}</p>",
-            "}"
-        ],
-        "description": "Remix catch boundary."
-    },
     "Remix Error Boundary": {
         "prefix": "rmxeb",
         "body": [
-            "const ErrorBoundary: ErrorBoundaryComponent = (${1:{error\\}}) => {",
+            "export const ErrorBoundary: ErrorBoundaryComponent = (${1:{error\\}}) => {",
             "    console.log(error)",
             "",
             "    ${2:const params = useParams()}",
