@@ -1,25 +1,32 @@
 {
-    "React Component": {
-        "prefix": "rc",
-        "body": [
-            "import {FC} from \"react\"",
-            "import PropTypes from \"prop-types\"",
-            "",
-            "const ${1:$TM_FILENAME_BASE}: FC = (${2:props}) => {",
-            "    return (",
-            "        <div>",
-            "            <h1>${1:$TM_FILENAME_BASE}</h1>",
-            "        </div>",
-            "    )",
-            "}",
-            "",
-            "${1:$TM_FILENAME_BASE}.propTypes = {",
-            "    $3",
-            "}",
-            "",
-            "export default ${1:$TM_FILENAME_BASE}",
-            ""
-        ],
-        "description": "React component."
+    "Console Log": {
+        "prefix": "log",
+        "body": "console.log($1)",
+        "description": "Logs output to the console."
+    },
+    "Import": {
+        "prefix": "imp",
+        "body": "import $2 from \"$1\"",
+        "description": "Import statement."
+    },
+    "Named Import": {
+        "prefix": "nimp",
+        "body": "import {$2} from \"$1\"",
+        "description": "Named import statement."
+    },
+    "Type Import": {
+        "prefix": "timp",
+        "body": "import type {$2} from \"$1\"",
+        "description": "Type import statement."
+    },
+    "Arrow Function": {
+        "prefix": "af",
+        "body": ["const $1 = ($2) => {$3}"],
+        "description": "Arrow function."
+    },
+    "Anonymous Arrow Function": {
+        "prefix": "aaf",
+        "body": ["($1) => {$2}"],
+        "description": "Anonymous arrow function."
     }
 }
