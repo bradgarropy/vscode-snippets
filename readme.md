@@ -2,7 +2,7 @@
 [![downloads][downloads-badge]][marketplace]
 [![discord][discord-badge]][discord]
 
-✂️ _[Visual Studio Code][vscode] snippet library for [JavaScript][javascript], [TypeScript][typescript], [Markdown][markdown], and [Python][python]._
+✂️ _[Visual Studio Code][vscode] snippet library for [JavaScript][javascript], [TypeScript][typescript], [React][react], [Remix][remix], and [Markdown][markdown]._
 
 ### ☕️ JavaScript / 🔵 TypeScript
 
@@ -11,26 +11,21 @@
 | `log`  | Logs output to the console. |
 | `imp`  | Import statement.           |
 | `nimp` | Named import statement.     |
+| `timp` | Type import statement.      |
 | `af`   | Arrow function.             |
 | `aaf`  | Anonymous arrow function.   |
 
-### ⚡️ Serverless
+### ⚡️ Vitest
 
-| Prefix | Description                  |
-| ------ | ---------------------------- |
-| `sf`   | Netlify serverless function. |
-
-### 🃏 Jest
-
-| Prefix | Description      |
-| ------ | ---------------- |
-| `jd`   | Jest describe.   |
-| `jt`   | Jest test.       |
-| `je`   | Jest expect.     |
-| `jba`  | Jest beforeAll.  |
-| `jaa`  | Jest afterAll.   |
-| `jbe`  | Jest beforeEach. |
-| `jae`  | Jest afterEach.  |
+| Prefix | Description        |
+| ------ | ------------------ |
+| `vd`   | Vitest describe.   |
+| `vt`   | Vitest test.       |
+| `ve`   | Vitest expect.     |
+| `vba`  | Vitest beforeAll.  |
+| `vaa`  | Vitest afterAll.   |
+| `vbe`  | Vitest beforeEach. |
+| `vae`  | Vitest afterEach.  |
 
 ### ⚛️ React
 
@@ -80,16 +75,6 @@
 | `mc`      | Inline code.          |
 | `mcb`     | Block of code.        |
 
-### 🐍 Python
-
-| Prefix | Description                            |
-| ------ | -------------------------------------- |
-| `log`  | Logs an info message to the console.   |
-| `logi` | Logs an info message to the console.   |
-| `logw` | Logs a warning message to the console. |
-| `loge` | Logs an error message to the console.  |
-| `def`  | Method definition with docstring.      |
-
 [vscode]: https://code.visualstudio.com
 [version-badge]: https://img.shields.io/visual-studio-marketplace/v/bradgarropy.bg-snippets?style=flat-square
 [downloads-badge]: https://img.shields.io/visual-studio-marketplace/i/bradgarropy.bg-snippets?style=flat-square
@@ -98,5 +83,6 @@
 [discord]: https://bradgarropy.com/discord
 [javascript]: https://javascript.com
 [typescript]: https://typescriptlang.org
+[react]: https://react.dev
+[remix]: http://remix.run
 [markdown]: https://markdownguide.org
-[python]: https://python.org
